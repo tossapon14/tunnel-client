@@ -7,4 +7,5 @@ install:
 2 npm install
 
 run:
-1 node index.js
+1 set .env edit SERVER="http:localhost:3000"  "your server"
+2 node index.js
